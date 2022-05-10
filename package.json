@@ -1,0 +1,19 @@
+{
+  "name": "mangata-healthcheck",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "mangata-sdk": "^0.40.1",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0"
+  },
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "es6",
+    "target": "es5"
+  }
+}
